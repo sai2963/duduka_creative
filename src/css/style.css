@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 480px ;
+   
+    background-color: white;
+    width: 25%;
+    padding: 25px;
+    
+}
+.price {
+    padding: 10px;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+.price p{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
