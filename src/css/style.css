@@ -5,18 +5,22 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    
     margin: 50px 480px ;
-   
+    align-items: center;
     background-color: white;
     width: 25%;
     padding: 25px;
     
 }
+div h1{
+    text-align: center;
+    padding:  0 20px;
+}
 .price {
     padding: 10px;
-    background-color: aqua;
-    width: 100%;
+    background-color:hsl(197, 76%, 59%);
+    width: 110%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -30,4 +34,44 @@ body{
     padding: 0;
     font-size: 40px;
     font-weight: 500;
+}
+div p{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+div ol{
+    margin-right: 120px;
+    
+}
+div li{
+    padding: 5px 0;
+}
+div li:first-of-type{
+    list-style: circle;
+}
+div li:nth-of-type(2){
+    list-style: disc;
+}
+div li:nth-of-type(3){
+    list-style: georgian;
+}
+.join{
+    margin: 5px 0;
+    padding: 15px 50px;
+}
+.join a{
+    margin: 5px 0;
+    padding: 15px 50px;
+    border: 2px solid grey;
+    text-decoration: none;
+    color:hsl(197, 76%, 59%);
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+.join a:hover{
+    background-color: hsl(197, 76%, 59%);
+    color: black;
 }
