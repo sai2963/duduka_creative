@@ -50,20 +50,27 @@ div p {
   padding: 10px;
   font-size: 18px;
 }
-div ol {
-  margin-right: 120px;
+.feature{
+    margin-right:180px ;
+    margin: 20px 0;
 }
-div li {
-  padding: 5px 0;
+.sub-feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    
+  
+
 }
-div li:first-of-type {
-  list-style: circle;
+.icon{
+    width: 20px;
+   margin-left: 40px;
+    
 }
-div li:nth-of-type(2) {
-  list-style: disc;
-}
-div li:nth-of-type(3) {
-  list-style: georgian;
+.sub-feature li{
+    position: relative;
+    right: 100px;
 }
 .join {
   margin: 5px 0;
