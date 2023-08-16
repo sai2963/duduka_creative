@@ -59,6 +59,8 @@ div p {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     list-style: none;
+    margin: 10px 0;
+    
     
   
 
@@ -71,6 +73,7 @@ div p {
 .sub-feature li{
     position: relative;
     right: 100px;
+    
 }
 .join {
   margin: 5px 0;
