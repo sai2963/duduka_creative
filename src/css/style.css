@@ -1,77 +1,83 @@
-body{
-    background-color: rgb(236, 236, 236);
+body {
+  background-color: rgb(236, 236, 236);
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-    margin: 50px 480px ;
-    align-items: center;
-    background-color: white;
-    width: 25%;
-    padding: 25px;
-    
+body :hover {
+  transform: scale(1.05);
 }
-div h1{
-    text-align: center;
-    padding:  0 20px;
+.mainy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  margin: 50px 480px;
+  align-items: center;
+  background-color: white;
+  width: 25%;
+  padding: 25px;
+  transition: transform 0.5s ease-out 1s;
+}
+.mainy :hover {
+  transform: scale(1.05);
+}
+div h1 {
+  text-align: center;
+  padding: 0 20px;
+}
+div h1:hover {
+  transform: none;
 }
 .price {
-    padding: 10px;
-    background-color:hsl(197, 76%, 59%);
-    width: 110%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-    
+  padding: 10px;
+  background-color: hsl(197, 76%, 59%);
+  width: 110%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: none;
 }
-.price p{
-    margin: 0;
-    padding: 0;
-    font-size: 40px;
-    font-weight: 500;
+.price p {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 500;
 }
-div p{
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
+div p {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
 }
-div ol{
-    margin-right: 120px;
-    
+div ol {
+  margin-right: 120px;
 }
-div li{
-    padding: 5px 0;
+div li {
+  padding: 5px 0;
 }
-div li:first-of-type{
-    list-style: circle;
+div li:first-of-type {
+  list-style: circle;
 }
-div li:nth-of-type(2){
-    list-style: disc;
+div li:nth-of-type(2) {
+  list-style: disc;
 }
-div li:nth-of-type(3){
-    list-style: georgian;
+div li:nth-of-type(3) {
+  list-style: georgian;
 }
-.join{
-    margin: 5px 0;
-    padding: 15px 50px;
+.join {
+  margin: 5px 0;
+  padding: 15px 50px;
 }
-.join a{
-    margin: 5px 0;
-    padding: 15px 50px;
-    border: 2px solid grey;
-    text-decoration: none;
-    color:hsl(197, 76%, 59%);
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: uppercase;
-    
+.join a {
+  margin: 5px 0;
+  padding: 15px 50px;
+  border: 2px solid grey;
+  text-decoration: none;
+  color: hsl(197, 76%, 59%);
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: background-color 1s ease-out;
 }
-.join a:hover{
-    background-color: hsl(197, 76%, 59%);
-    color: black;
+.join a:hover {
+  background-color: hsl(197, 76%, 59%);
+  color: black;
 }
